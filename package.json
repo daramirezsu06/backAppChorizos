@@ -1,0 +1,31 @@
+{
+  "name": "backappchorizos",
+  "version": "1.0.0",
+  "description": "aplicacion para monitoreo comercial empresa de productos carnicos",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daramirezsu06/backAppChorizos.git"
+  },
+  "author": "David Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daramirezsu06/backAppChorizos/issues"
+  },
+  "homepage": "https://github.com/daramirezsu06/backAppChorizos#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
