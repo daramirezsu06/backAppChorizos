@@ -1,7 +1,9 @@
 import { Router } from "express";
-import { creteUser } from "../controllers/userControllers";
+import { creteUser, getUsers } from "../controllers/userControllers";
 
 const usersRoutes = Router();
+
+usersRoutes.get("/", getUsers);
 
 usersRoutes.put("/", creteUser);
 
