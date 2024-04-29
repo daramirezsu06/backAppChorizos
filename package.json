@@ -20,16 +20,16 @@
   "homepage": "https://github.com/daramirezsu06/backAppChorizos#readme",
   "devDependencies": {
     "@types/express": "^4.17.21",
-    "@types/node": "^20.11.30",
+    "@types/node": "^20.12.7",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.0",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typeorm": "github:typeorm/typeorm"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "pg": "^8.11.3",
-    "reflect-metadata": "^0.2.2",
-    "typeorm": "^0.3.20"
+    "reflect-metadata": "^0.2.2"
   }
 }
