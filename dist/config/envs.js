@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BD_NAME = exports.BD_PASSWORD = exports.BD_USER = exports.BD_PORT = exports.BD_HOST = exports.BD_TYPE = exports.PORT = void 0;
+require("dotenv/config");
+exports.PORT = process.env.PORT || 3000;
+exports.BD_TYPE = process.env.BD_TYPE;
+exports.BD_HOST = process.env.BD_HOST;
+exports.BD_PORT = process.env.BD_PORT;
+exports.BD_USER = process.env.BD_USER;
+exports.BD_PASSWORD = process.env.BD_PASSWORD;
+exports.BD_NAME = process.env.BD_NAME;
