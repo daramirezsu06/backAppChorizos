@@ -5,12 +5,11 @@ import costumerRoutes from "./costumersRoutes";
 
 const router = Router();
 
-router.use("/users", usersRoutes)
-router.use("/sales", salesRoutes)
-router.use("/costumers", costumerRoutes)
+router.get("/", (req: Request, res: Response) => {
+  res.send("Hello World");
+});
+router.use("/users", usersRoutes);
+router.use("/sales", salesRoutes);
+router.use("/costumers", costumerRoutes);
 
-
-
-
-
-export default router
+export default router;

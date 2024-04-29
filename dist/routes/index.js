@@ -8,6 +8,9 @@ const usersRoutes_1 = __importDefault(require("./usersRoutes"));
 const salesRoutes_1 = __importDefault(require("./salesRoutes"));
 const costumersRoutes_1 = __importDefault(require("./costumersRoutes"));
 const router = (0, express_1.Router)();
+router.get("/", (req, res) => {
+    res.send("Hello World");
+});
 router.use("/users", usersRoutes_1.default);
 router.use("/sales", salesRoutes_1.default);
 router.use("/costumers", costumersRoutes_1.default);
