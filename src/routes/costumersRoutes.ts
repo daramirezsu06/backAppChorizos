@@ -4,6 +4,6 @@ import { createCostumer } from "../controllers/costumerControllers";
 
 const costumerRoutes = Router();
 
-costumerRoutes.post("/", createCostumer);
+costumerRoutes.get("/", createCostumer);
 
 export default costumerRoutes;

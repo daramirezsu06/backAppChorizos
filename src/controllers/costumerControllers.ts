@@ -13,4 +13,4 @@ export const updateCostumer = (req: Request, res: Response) => {
 
 export const deleteCostumer = (req: Request, res: Response) => {
   res.send("eliminamos los clientes  vamos melos");
-}
+};
