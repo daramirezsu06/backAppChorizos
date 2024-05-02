@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.deleteCostumer = exports.updateCostumer = exports.getCostumers = exports.createCostumer = void 0;
 const createCostumer = (req, res) => {
+    req.body;
     res.send("createCostumer  vamos melos");
 };
 exports.createCostumer = createCostumer;

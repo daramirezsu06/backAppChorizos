@@ -5,6 +5,7 @@ const typeorm_1 = require("typeorm");
 const Users_1 = require("../entities/Users");
 const Credentials_1 = require("../entities/Credentials");
 const envs_1 = require("./envs");
+const Products_1 = require("../entities/Products");
 exports.AppDataSource = new typeorm_1.DataSource({
     type: "postgres",
     host: envs_1.BD_HOST,
@@ -14,7 +15,7 @@ exports.AppDataSource = new typeorm_1.DataSource({
     database: envs_1.BD_NAME,
     synchronize: true,
     logging: false,
-    entities: [Users_1.User, Credentials_1.Credential],
+    entities: [Users_1.User, Credentials_1.Credential, Products_1.Product],
     subscribers: [],
     migrations: [],
     // dropSchema: true,

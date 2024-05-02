@@ -22,6 +22,16 @@ __decorate([
     (0, typeorm_1.Column)(),
     __metadata("design:type", String)
 ], Product.prototype, "name", void 0);
+__decorate([
+    (0, typeorm_1.Column)(),
+    __metadata("design:type", String)
+], Product.prototype, "marca", void 0);
+__decorate([
+    (0, typeorm_1.Column)(),
+    __metadata("design:type", Number)
+], Product.prototype, "peso", void 0);
 exports.Product = Product = __decorate([
-    (0, typeorm_1.Entity)()
+    (0, typeorm_1.Entity)({
+        name: "product"
+    })
 ], Product);
