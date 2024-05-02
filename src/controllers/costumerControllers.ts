@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 
 export const createCostumer = (req: Request, res: Response) => {
+  req.body;
   res.send("createCostumer  vamos melos");
 };
 export const getCostumers = (req: Request, res: Response) => {

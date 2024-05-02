@@ -2,6 +2,7 @@ import { DataSource } from "typeorm";
 import { User } from "../entities/Users";
 import { Credential } from "../entities/Credentials";
 import { BD_NAME, BD_PASSWORD, BD_PORT, BD_USER, BD_HOST } from "./envs";
+import { Product } from "../entities/Products";
 
 export const AppDataSource = new DataSource({
   type: "postgres",
@@ -12,7 +13,7 @@ export const AppDataSource = new DataSource({
   database: BD_NAME,
   synchronize: true,
   logging: false,
-  entities: [User, Credential],
+  entities: [User, Credential, Product],
   subscribers: [],
   migrations: [],
   // dropSchema: true,
